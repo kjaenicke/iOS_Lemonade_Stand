@@ -16,22 +16,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVn-kj-MGa">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="28" width="81" height="16"/>
-                                </variation>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="budgetAvailable" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDQ-P5-XOz">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.64640727796052633" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="179" y="28" width="129" height="26"/>
+                                    <rect key="frame" x="255" y="23" width="129" height="26"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lemonsAvailable" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lc-h7-jAb">
@@ -58,7 +49,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="134" width="210" height="22"/>
+                                    <rect key="frame" x="16" y="162" width="210" height="22"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lemons for $2:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYM-dV-KQJ">
@@ -67,7 +58,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="35" y="164" width="130" height="21"/>
+                                    <rect key="frame" x="35" y="192" width="130" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ice Cubes for $1:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7k-WC-leO">
@@ -76,7 +67,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="197" width="135" height="22"/>
+                                    <rect key="frame" x="20" y="225" width="135" height="22"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 2: Mix your lemonade" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qbj-xY-3VA">
@@ -134,26 +125,13 @@
                                     <rect key="frame" x="75" y="442" width="203" height="62"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAu-WI-o7S">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Start Day">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="144" y="520" width="113" height="50"/>
-                                </variation>
-                                <connections>
-                                    <action selector="startDayButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FHW-T8-tpr"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TV5-DY-UAi">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="+">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="200" y="160" width="46" height="30"/>
+                                    <rect key="frame" x="200" y="188" width="46" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="addLemonToPurchaseButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kdX-jY-Cre"/>
@@ -165,7 +143,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="200" y="193" width="46" height="30"/>
+                                    <rect key="frame" x="200" y="221" width="46" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="addIceCubeToPurchaseButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5wI-PM-p0j"/>
@@ -177,7 +155,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="331" y="160" width="46" height="30"/>
+                                    <rect key="frame" x="331" y="188" width="46" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="subtractLemonToPurchaseButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cHY-YE-Jxx"/>
@@ -189,7 +167,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="331" y="193" width="46" height="30"/>
+                                    <rect key="frame" x="331" y="221" width="46" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="subtractIceCubeToPurchaseButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IPN-t3-GrP"/>
@@ -249,7 +227,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="266" y="164" width="42" height="21"/>
+                                    <rect key="frame" x="266" y="192" width="42" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0m-lp-HCv">
@@ -258,7 +236,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="266" y="197" width="42" height="21"/>
+                                    <rect key="frame" x="266" y="225" width="42" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Cx-U1-Qn3">
@@ -267,7 +245,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="266" y="353" width="42" height="21"/>
+                                    <rect key="frame" x="268" y="353" width="42" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zx4-tM-wfi">
@@ -279,11 +257,52 @@
                                     <rect key="frame" x="268" y="387" width="42" height="21"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBq-XW-JQe">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="521" width="113" height="50"/>
+                                </variation>
+                                <connections>
+                                    <action selector="resetButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z1S-4x-Gaq"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gkd-HJ-7cc">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAu-WI-o7S">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Start Day">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="251" y="521" width="113" height="50"/>
+                                </variation>
+                                <connections>
+                                    <action selector="startDayButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FHW-T8-tpr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVn-kj-MGa">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="165" y="27" width="81" height="16"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="MVn-kj-MGa"/>
                                 <exclude reference="JDQ-P5-XOz"/>
                                 <exclude reference="3lc-h7-jAb"/>
                                 <exclude reference="UFt-8m-1zQ"/>
@@ -296,7 +315,6 @@
                                 <exclude reference="qtn-7a-Nnp"/>
                                 <exclude reference="PeK-b0-Qd2"/>
                                 <exclude reference="Qap-Vz-pO9"/>
-                                <exclude reference="CAu-WI-o7S"/>
                                 <exclude reference="TV5-DY-UAi"/>
                                 <exclude reference="bHE-sb-uJy"/>
                                 <exclude reference="KQ5-1v-JlU"/>
@@ -309,11 +327,14 @@
                                 <exclude reference="h0m-lp-HCv"/>
                                 <exclude reference="7Cx-U1-Qn3"/>
                                 <exclude reference="zx4-tM-wfi"/>
+                                <exclude reference="KBq-XW-JQe"/>
+                                <exclude reference="gkd-HJ-7cc"/>
+                                <exclude reference="CAu-WI-o7S"/>
+                                <exclude reference="MVn-kj-MGa"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="MVn-kj-MGa"/>
                                 <include reference="JDQ-P5-XOz"/>
                                 <include reference="3lc-h7-jAb"/>
                                 <include reference="UFt-8m-1zQ"/>
@@ -326,7 +347,6 @@
                                 <include reference="qtn-7a-Nnp"/>
                                 <include reference="PeK-b0-Qd2"/>
                                 <include reference="Qap-Vz-pO9"/>
-                                <include reference="CAu-WI-o7S"/>
                                 <include reference="TV5-DY-UAi"/>
                                 <include reference="bHE-sb-uJy"/>
                                 <include reference="KQ5-1v-JlU"/>
@@ -339,6 +359,10 @@
                                 <include reference="h0m-lp-HCv"/>
                                 <include reference="7Cx-U1-Qn3"/>
                                 <include reference="zx4-tM-wfi"/>
+                                <include reference="KBq-XW-JQe"/>
+                                <include reference="gkd-HJ-7cc"/>
+                                <include reference="CAu-WI-o7S"/>
+                                <include reference="MVn-kj-MGa"/>
                             </mask>
                         </variation>
                     </view>
@@ -346,8 +370,11 @@
                         <outlet property="budgetAvailableLabel" destination="JDQ-P5-XOz" id="LWH-zW-PYo"/>
                         <outlet property="iceCubesAvailableLabel" destination="UFt-8m-1zQ" id="ZdG-YU-9qN"/>
                         <outlet property="iceCubesToPurchaseLabel" destination="h0m-lp-HCv" id="8iB-WO-kqY"/>
+                        <outlet property="iceCubesToUseLabel" destination="zx4-tM-wfi" id="6R0-Lx-sUw"/>
                         <outlet property="lemonsAvailableLabel" destination="3lc-h7-jAb" id="tY3-0E-VVs"/>
                         <outlet property="lemonsToPurchaseLabel" destination="s4M-Vg-U6w" id="rOq-i7-8Jl"/>
+                        <outlet property="lemonsToUseLabel" destination="7Cx-U1-Qn3" id="Cla-lk-at5"/>
+                        <outlet property="weatherImageView" destination="gkd-HJ-7cc" id="UoN-fV-OPk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
