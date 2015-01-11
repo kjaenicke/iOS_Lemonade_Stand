@@ -141,7 +141,7 @@ class ViewController: UIViewController {
             case "Cold":
             weatherMultiplier = -3
             
-            case "Fair":
+            case "Mild":
             weatherMultiplier = 0
             
             case "Warm":
