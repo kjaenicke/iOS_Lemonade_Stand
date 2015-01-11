@@ -1,2 +1,2 @@
-# iOS_Lemonade_Stand
+# iOS Lemonade Stand
 Simple Lemonade Stand Application for iOS written in Swift
